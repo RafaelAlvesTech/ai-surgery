@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "predicting-patient-outcomes-from-biosignal-and-ehr-data"
+version = "0.1.0"
+description = ""
+authors = ["RafaelAlvesTech <rafaelpereiraalves@ufba.br>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.26.4"
+pandas = "^2.2.2"
+seaborn = "^0.13.2"
+tensorflow = "^2.16.1"
+vitaldb = "^1.4.9"
+matplot = "^0.1.9"
+scikit-learn = "^1.5.0"
+imblearn = "^0.0"
+xgboost = "^2.0.3"
+openpyxl = "^3.1.4"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
